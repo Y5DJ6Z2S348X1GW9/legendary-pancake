@@ -187,6 +187,146 @@ const characters = {
                 image: "images/skills/susanoo.svg"
             }
         ]
+    },
+    luffy_gear2: {
+        name: "蒙奇·D·路飞",
+        title: "二档·橡胶人",
+        image: "images/luffy_gear2.svg",
+        stats: {
+            health: 1100,
+            mana: 750,
+            attack: 88
+        },
+        skills: [
+            {
+                id: "gomu_jet_pistol",
+                name: "橡胶JET手枪",
+                description: "使用二档高速血液流动，发出超高速的拳击",
+                damage: 135,
+                manaCost: 45,
+                image: "images/skills/jet_pistol.svg"
+            },
+            {
+                id: "gomu_jet_gatling",
+                name: "橡胶JET机关枪",
+                description: "二档状态下的连续高速拳击，造成大量伤害",
+                damage: 170,
+                manaCost: 75,
+                image: "images/skills/jet_gatling.svg"
+            },
+            {
+                id: "gomu_jet_bazooka",
+                name: "橡胶JET火箭炮",
+                description: "用双手发出强力冲击波，击退敌人",
+                damage: 145,
+                manaCost: 55,
+                image: "images/skills/jet_bazooka.svg"
+            },
+            {
+                id: "gomu_red_hawk",
+                name: "橡胶火拳枪",
+                description: "奥义：二档与武装色霸气结合，发出燃烧的拳击，造成巨大伤害和灼烧效果",
+                damage: 230,
+                effect: "额外造成60点持续伤害",
+                manaCost: 145,
+                isUltimate: true,
+                image: "images/skills/red_hawk.svg"
+            }
+        ]
+    },
+    zoro_enma: {
+        name: "罗罗诺亚·索隆",
+        title: "三刀流·阎魔",
+        image: "images/zoro.svg",
+        stats: {
+            health: 950,
+            mana: 820,
+            attack: 100
+        },
+        skills: [
+            {
+                id: "santoryu_onigiri",
+                name: "三刀流·鬼斩",
+                description: "三刀流基础奥义，从三个方向同时斩击敌人",
+                damage: 155,
+                manaCost: 60,
+                image: "images/skills/onigiri.svg"
+            },
+            {
+                id: "enma_release",
+                name: "阎魔·霸气解放",
+                description: "释放阎魔的力量，武装色霸气覆盖，下次攻击伤害提升60%",
+                damage: 0,
+                effect: "增加下次攻击伤害60%",
+                manaCost: 55,
+                image: "images/skills/enma_haki.svg"
+            },
+            {
+                id: "santoryu_kokujou_o_tatsu_maki",
+                name: "三刀流·黑绳大龙卷",
+                description: "旋转身体产生龙卷风般的斩击，造成范围伤害",
+                damage: 175,
+                manaCost: 85,
+                image: "images/skills/tatsu_maki.svg"
+            },
+            {
+                id: "santoryu_ichidai_sanzen_daisen_sekai",
+                name: "三千世界",
+                description: "奥义：三刀流最强奥义，瞬间发出无数道斩击，威力惊人",
+                damage: 290,
+                effect: "吸收80点查克拉",
+                manaCost: 165,
+                isUltimate: true,
+                image: "images/skills/sanzen_sekai.svg"
+            }
+        ]
+    },
+    luffy_snakeman: {
+        name: "蒙奇·D·路飞",
+        title: "四档·蛇人",
+        image: "images/luffy_snakeman.svg",
+        stats: {
+            health: 1050,
+            mana: 880,
+            attack: 92
+        },
+        skills: [
+            {
+                id: "gomu_jet_culverin",
+                name: "橡胶JET大蛇炮",
+                description: "蛇人形态的追踪攻击，拳头会改变轨迹追击敌人",
+                damage: 140,
+                manaCost: 65,
+                image: "images/skills/culverin.svg"
+            },
+            {
+                id: "gomu_black_mamba",
+                name: "橡胶黑色曼巴",
+                description: "连续发射无数追踪拳击，如同黑色曼巴蛇般迅猛",
+                damage: 165,
+                manaCost: 80,
+                image: "images/skills/black_mamba.svg"
+            },
+            {
+                id: "gomu_python",
+                name: "橡胶大蟒蛇",
+                description: "强化版的追踪攻击，威力和速度都大幅提升",
+                damage: 155,
+                effect: "增加下次攻击伤害45%",
+                manaCost: 70,
+                image: "images/skills/python.svg"
+            },
+            {
+                id: "gomu_king_cobra",
+                name: "橡胶大蛇王枪",
+                description: "奥义：蛇人形态的最强一击，发出巨大的蛇王般的拳击，并恢复体力",
+                damage: 270,
+                effect: "恢复180生命值",
+                manaCost: 155,
+                isUltimate: true,
+                image: "images/skills/king_cobra.svg"
+            }
+        ]
     }
 };
 

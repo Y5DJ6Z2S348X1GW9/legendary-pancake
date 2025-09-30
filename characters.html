@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>角色介绍 - 火影忍者回合制游戏</title>
+    <title>角色介绍 - 动漫英雄大乱斗</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/characters.css">
@@ -13,7 +13,7 @@
         <header>
             <nav class="main-nav">
                 <div class="logo">
-                    <h1 style="color: white; font-size: 1.5rem;">火影忍者回合制游戏</h1>
+                    <h1 style="color: white; font-size: 1.5rem;">动漫英雄大乱斗</h1>
                 </div>
                 <ul class="nav-links">
                     <li><a href="index.html">首页</a></li>
@@ -31,6 +31,9 @@
                 <button class="tab-btn" data-character="sasuke">宇智波佐助</button>
                 <button class="tab-btn" data-character="sakura">春野樱</button>
                 <button class="tab-btn" data-character="kakashi">旗木卡卡西</button>
+                <button class="tab-btn" data-character="luffy_gear2">路飞·二档</button>
+                <button class="tab-btn" data-character="zoro_enma">索隆</button>
+                <button class="tab-btn" data-character="luffy_snakeman">路飞·蛇人</button>
             </div>
             
             <div class="character-details">
@@ -367,11 +370,261 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- 路飞二档详情 -->
+                <div class="character-detail" id="luffy_gear2-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/luffy_gear2.svg" alt="蒙奇·D·路飞">
+                        </div>
+                        <div class="character-info">
+                            <h2>蒙奇·D·路飞</h2>
+                            <p class="character-title">二档·橡胶人</p>
+                            <div class="character-description">
+                                <p>蒙奇·D·路飞是草帽海贼团的船长，橡胶果实能力者。二档是路飞在与CP9战斗中开发的能力，通过加速血液流动提高身体机能。</p>
+                                <p>二档状态下，路飞的速度、力量和反应能力都大幅提升，能够发出蒸汽般的效果，各种技能的威力都得到极大增强。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/jet_pistol.svg" alt="橡胶JET手枪">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶JET手枪</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">二档状态下，利用高速血液流动发出的超高速拳击，速度快到肉眼难以捕捉。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 135</span>
+                                        <span class="stat">查克拉消耗: 45</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/jet_gatling.svg" alt="橡胶JET机关枪">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶JET机关枪</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">二档状态下的连续高速拳击攻击，如同机关枪般密集的拳头雨点般落下。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 170</span>
+                                        <span class="stat">查克拉消耗: 75</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/jet_bazooka.svg" alt="橡胶JET火箭炮">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶JET火箭炮</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">将双臂同时伸长后发出的强力冲击波，能够将敌人击飞很远。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 145</span>
+                                        <span class="stat">查克拉消耗: 55</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/red_hawk.svg" alt="橡胶火拳枪">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶火拳枪</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">二档与武装色霸气结合的强力招式，拳头因摩擦而燃烧，向艾斯致敬的技能，造成巨大伤害和持续灼烧。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 230</span>
+                                        <span class="stat">效果: 额外造成60点持续伤害</span>
+                                        <span class="stat">查克拉消耗: 145</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 索隆详情 -->
+                <div class="character-detail" id="zoro_enma-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/zoro.svg" alt="罗罗诺亚·索隆">
+                        </div>
+                        <div class="character-info">
+                            <h2>罗罗诺亚·索隆</h2>
+                            <p class="character-title">三刀流·阎魔</p>
+                            <div class="character-description">
+                                <p>罗罗诺亚·索隆是草帽海贼团的战斗员，三刀流剑术的使用者，立志成为世界第一剑豪。</p>
+                                <p>索隆在和之国获得了传说中的名刀阎魔，这把刀能够吸取使用者的武装色霸气，是曾经伤到凯多的刀。掌握阎魔后，索隆的实力大幅提升。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/onigiri.svg" alt="三刀流·鬼斩">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>三刀流·鬼斩</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">索隆三刀流的基础奥义，从三个方向同时斩击敌人，威力巨大。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 155</span>
+                                        <span class="stat">查克拉消耗: 60</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/enma_haki.svg" alt="阎魔·霸气解放">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>阎魔·霸气解放</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">释放阎魔吸取的武装色霸气，全身覆盖强大的霸气，大幅提升下次攻击威力。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">效果: 增加下次攻击伤害60%</span>
+                                        <span class="stat">查克拉消耗: 55</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/tatsu_maki.svg" alt="三刀流·黑绳大龙卷">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>三刀流·黑绳大龙卷</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">高速旋转身体产生龙卷风般的斩击波，能够切开一切阻挡在前方的东西。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 175</span>
+                                        <span class="stat">查克拉消耗: 85</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/sanzen_sekai.svg" alt="三千世界">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>三千世界</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">索隆三刀流的最强奥义，将三把刀高速旋转，瞬间发出无数道斩击，威力足以斩断一切。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 290</span>
+                                        <span class="stat">效果: 吸收80点查克拉</span>
+                                        <span class="stat">查克拉消耗: 165</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 路飞蛇人详情 -->
+                <div class="character-detail" id="luffy_snakeman-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/luffy_snakeman.svg" alt="蒙奇·D·路飞">
+                        </div>
+                        <div class="character-info">
+                            <h2>蒙奇·D·路飞</h2>
+                            <p class="character-title">四档·蛇人</p>
+                            <div class="character-description">
+                                <p>蛇人形态是路飞四档的变种形态之一，在与卡塔库栗的战斗中开发。这个形态强化了速度和机动性。</p>
+                                <p>蛇人形态下，路飞的攻击会像蛇一样改变轨迹追踪敌人，无论敌人如何躲避都能命中。这是专门针对见闻色霸气高手开发的形态。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/culverin.svg" alt="橡胶JET大蛇炮">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶JET大蛇炮</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">蛇人形态的追踪攻击，拳头会像蛇一样改变轨迹追击目标，几乎无法躲避。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 140</span>
+                                        <span class="stat">查克拉消耗: 65</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/black_mamba.svg" alt="橡胶黑色曼巴">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶黑色曼巴</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">连续发射无数追踪拳击，如同黑色曼巴蛇的连续攻击，迅猛而致命。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 165</span>
+                                        <span class="stat">查克拉消耗: 80</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/python.svg" alt="橡胶大蟒蛇">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶大蟒蛇</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">强化版的追踪攻击，拳头如同巨蟒般缠绕追击，提升下次攻击威力。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 155</span>
+                                        <span class="stat">效果: 增加下次攻击伤害45%</span>
+                                        <span class="stat">查克拉消耗: 70</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/king_cobra.svg" alt="橡胶大蛇王枪">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>橡胶大蛇王枪</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">蛇人形态的最强一击，发出巨大的蛇王般的拳击，威力惊人，同时恢复部分体力。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 270</span>
+                                        <span class="stat">效果: 恢复180生命值</span>
+                                        <span class="stat">查克拉消耗: 155</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         
         <footer>
-            <p>&copy; 2023 火影忍者回合制游戏 | 联系邮箱: wqfg8878@163.com</p>
+            <p>&copy; 2023 动漫英雄大乱斗 | 联系邮箱: wqfg8878@163.com</p>
         </footer>
     </div>
 

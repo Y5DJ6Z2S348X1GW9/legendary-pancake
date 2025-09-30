@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="95" fill="#f44336" opacity="0.1"/>
+  
+  <!-- 二档蒸汽效果 -->
+  <g opacity="0.7">
+    <circle cx="70" cy="50" r="10" fill="#ff5252" opacity="0.6">
+      <animate attributeName="r" values="5;15;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="50" r="8" fill="#ff5252" opacity="0.6">
+      <animate attributeName="r" values="4;12;4" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="120" r="12" fill="#ff5252" opacity="0.5">
+      <animate attributeName="r" values="8;16;8" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="120" r="9" fill="#ff5252" opacity="0.5">
+      <animate attributeName="r" values="6;14;6" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- 身体轮廓 -->
+  <path d="M100,40 C120,40 130,50 130,70 C130,85 125,95 125,110 C125,130 115,160 100,160 C85,160 75,130 75,110 C75,95 70,85 70,70 C70,50 80,40 100,40 Z" fill="#ffccbc"/>
+  
+  <!-- 衣服 - 红色背心 -->
+  <path d="M75,80 C75,80 85,85 100,85 C115,85 125,80 125,80 L125,130 C125,145 115,160 100,160 C85,160 75,145 75,130 Z" fill="#d50000"/>
+  
+  <!-- 短裤 -->
+  <path d="M75,130 C75,130 85,135 100,135 C115,135 125,130 125,130 L125,160 C125,160 115,165 100,165 C85,165 75,160 75,160 Z" fill="#1a237e"/>
+  
+  <!-- 头部 -->
+  <circle cx="100" cy="55" r="25" fill="#ffccbc"/>
+  
+  <!-- 草帽 -->
+  <ellipse cx="100" cy="40" rx="35" ry="10" fill="#fdd835"/>
+  <ellipse cx="100" cy="38" rx="25" ry="8" fill="#f57f17"/>
+  <rect x="95" y="30" width="10" height="5" fill="#f57f17"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="90" cy="55" r="3" fill="#000000"/>
+  <circle cx="110" cy="55" r="3" fill="#000000"/>
+  
+  <!-- 嘴巴 - 坚定表情 -->
+  <path d="M90,65 C95,70 105,70 110,65" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <!-- 疤痕 -->
+  <path d="M100,70 L100,75" stroke="#d50000" stroke-width="2"/>
+  
+  <!-- 手臂 - 左 -->
+  <path d="M75,85 C65,90 55,100 50,115" stroke="#ffccbc" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="50" cy="115" r="10" fill="#ffccbc"/>
+  
+  <!-- 手臂 - 右 -->
+  <path d="M125,85 C135,90 145,100 150,115" stroke="#ffccbc" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="150" cy="115" r="10" fill="#ffccbc"/>
+  
+  <!-- 二档红色光效 -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#ff5252" stroke-width="3" opacity="0.5">
+    <animate attributeName="r" values="90;100;90" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 二档能量波动 -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#ff9e80" stroke-width="2" opacity="0.3">
+    <animate attributeName="r" values="65;75;65" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆 -->
+  <circle cx="50" cy="50" r="45" fill="#9c27b0" opacity="0.1"/>
+  
+  <!-- 蟒蛇形态 -->
+  <path d="M20,50 C25,40 35,45 40,35 C45,25 55,25 60,35 C65,45 75,40 80,50 C75,60 65,55 60,65 C55,75 45,75 40,65 C35,55 25,60 20,50 Z" fill="none" stroke="#9c27b0" stroke-width="3" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.4;0.7" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- 蛇鳞纹理 -->
+  <path d="M30,50 L40,50" stroke="#9c27b0" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M45,40 L55,40" stroke="#9c27b0" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M60,50 L70,50" stroke="#9c27b0" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M45,60 L55,60" stroke="#9c27b0" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- 冲击波 -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#9c27b0" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="25;35;25" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 蛇头 -->
+  <circle cx="80" cy="50" r="8" fill="#ffccbc"/>
+  <circle cx="83" cy="47" r="1" fill="#000000"/>
+  <path d="M82,53 C82,53 84,53 86,53" stroke="#000000" stroke-width="1" fill="none"/>
+</svg>

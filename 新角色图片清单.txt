@@ -1,0 +1,58 @@
+海贼王角色图片清单
+===================
+
+一、角色主图（放在 images/ 目录下）
+--------------------------------
+1. luffy_gear2.svg - 路飞二档形态的角色图
+2. zoro.svg - 索隆（三刀流）的角色图
+3. luffy_snakeman.svg - 路飞四档蛇人形态的角色图
+
+二、技能图标（放在 images/skills/ 目录下）
+-----------------------------------------
+
+【路飞·二档】技能图标：
+1. jet_pistol.svg - 橡胶JET手枪
+2. jet_gatling.svg - 橡胶JET机关枪
+3. jet_bazooka.svg - 橡胶JET火箭炮
+4. red_hawk.svg - 橡胶火拳枪（奥义）
+
+【索隆·阎魔】技能图标：
+5. onigiri.svg - 三刀流·鬼斩
+6. enma_haki.svg - 阎魔·霸气解放
+7. tatsu_maki.svg - 三刀流·黑绳大龙卷
+8. sanzen_sekai.svg - 三千世界（奥义）
+
+【路飞·蛇人】技能图标：
+9. culverin.svg - 橡胶JET大蛇炮
+10. black_mamba.svg - 橡胶黑色曼巴
+11. python.svg - 橡胶大蟒蛇
+12. king_cobra.svg - 橡胶大蛇王枪（奥义）
+
+图片说明：
+----------
+- 所有图片格式为 SVG
+- 角色主图建议尺寸：适配现有角色图片大小
+- 技能图标建议尺寸：与现有技能图标一致
+- 图片风格应与现有火影忍者风格保持一致，确保视觉统一
+
+图片创意建议：
+-------------
+1. 路飞二档：身体冒蒸汽，拳头前伸的战斗姿势
+2. 索隆：三把刀的战斗姿势，可以展现阎魔刀的特殊气场
+3. 路飞蛇人：四档蛇人形态，更加紧实的肌肉线条，蓄势待发的姿态
+
+技能图标建议：
+-------------
+- jet_pistol.svg: 高速拳击的动态效果
+- jet_gatling.svg: 连续拳击的密集效果
+- jet_bazooka.svg: 双拳冲击波效果
+- red_hawk.svg: 燃烧的火焰拳头
+- onigiri.svg: 三刀交叉的斩击
+- enma_haki.svg: 黑色霸气覆盖的刀刃
+- tatsu_maki.svg: 龙卷风般的斩击效果
+- sanzen_sekai.svg: 多重斩击轨迹
+- culverin.svg: 曲折追踪的拳头轨迹
+- black_mamba.svg: 多条追踪攻击的轨迹
+- python.svg: 蟒蛇般缠绕的拳头
+- king_cobra.svg: 巨大的蛇王拳头形象
+
