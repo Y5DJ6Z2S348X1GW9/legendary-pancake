@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 火球主体 -->
+  <circle cx="50" cy="50" r="40" fill="#FF4500" />
+  
+  <!-- 火焰效果 -->
+  <path d="M30,50 Q40,30 50,40 Q60,20 65,40 Q80,30 70,50 Q85,65 65,60 Q70,80 50,70 Q40,85 35,65 Q20,70 30,50" fill="#FFA500" stroke="#FF4500" stroke-width="2" />
+  
+  <!-- 火焰中心 -->
+  <circle cx="50" cy="50" r="15" fill="#FFFF00" />
+</svg>

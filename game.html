@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战斗 - 火影忍者回合制游戏</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="main-nav">
+                <div class="logo">
+                    <h1 style="color: white; font-size: 1.5rem;">火影忍者回合制游戏</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="characters.html">角色介绍</a></li>
+                    <li><a href="about.html">关于游戏</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="game-content">
+            <div class="battle-arena">
+                <div class="player-side">
+                    <div class="character-portrait">
+                        <img id="player-image" src="" alt="玩家角色">
+                        <div class="character-name" id="player-name"></div>
+                    </div>
+                    <div class="status-bars">
+                        <div class="health-bar">
+                            <div class="bar-label">生命值</div>
+                            <div class="bar">
+                                <div id="player-health" class="bar-fill health"></div>
+                            </div>
+                            <div class="bar-value" id="player-health-value">1000/1000</div>
+                        </div>
+                        <div class="mana-bar">
+                            <div class="bar-label">查克拉</div>
+                            <div class="bar">
+                                <div id="player-mana" class="bar-fill mana"></div>
+                            </div>
+                            <div class="bar-value" id="player-mana-value">800/800</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="battle-log">
+                    <div id="battle-messages" class="messages"></div>
+                </div>
+                
+                <div class="enemy-side">
+                    <div class="character-portrait">
+                        <img id="enemy-image" src="" alt="敌人角色">
+                        <div class="character-name" id="enemy-name">AI对手</div>
+                    </div>
+                    <div class="status-bars">
+                        <div class="health-bar">
+                            <div class="bar-label">生命值</div>
+                            <div class="bar">
+                                <div id="enemy-health" class="bar-fill health"></div>
+                            </div>
+                            <div class="bar-value" id="enemy-health-value">1000/1000</div>
+                        </div>
+                        <div class="mana-bar">
+                            <div class="bar-label">查克拉</div>
+                            <div class="bar">
+                                <div id="enemy-mana" class="bar-fill mana"></div>
+                            </div>
+                            <div class="bar-value" id="enemy-mana-value">800/800</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="battle-controls">
+                <div class="skills-container">
+                    <h3>技能</h3>
+                    <div class="skills" id="skill-buttons">
+                        <!-- 技能按钮将通过JS动态生成 -->
+                    </div>
+                </div>
+                
+                <div class="items-container">
+                    <h3>道具</h3>
+                    <div class="items">
+                        <button class="item-btn" id="health-potion">
+                            <img src="images/items/health_potion.svg" alt="红瓶">
+                            <span class="item-name">红瓶</span>
+                            <span class="item-count" id="health-potion-count">3</span>
+                        </button>
+                        <button class="item-btn" id="mana-potion">
+                            <img src="images/items/chakra_potion.svg" alt="蓝瓶">
+                            <span class="item-name">蓝瓶</span>
+                            <span class="item-count" id="mana-potion-count">3</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="battle-result" class="battle-result hidden">
+                <div class="result-content">
+                    <h2 id="result-title">战斗结束</h2>
+                    <p id="result-message"></p>
+                    <div class="result-buttons">
+                        <a href="character-select.html" class="btn btn-secondary">重新选择角色</a>
+                        <a href="index.html" class="btn btn-primary">返回首页</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 火影忍者回合制游戏 | 联系邮箱: wqfg8878@163.com</p>
+        </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/characters.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>

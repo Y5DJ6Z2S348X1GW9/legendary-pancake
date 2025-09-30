@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 查克拉拳主体 -->
+  <circle cx="50" cy="50" r="40" fill="#FF69B4" />
+  
+  <!-- 拳头形状 -->
+  <path d="M35,40 Q40,30 50,35 Q60,30 65,40 Q70,50 65,60 Q55,70 45,70 Q35,65 35,55 Z" fill="#FFB6C1" stroke="#FF1493" stroke-width="2" />
+  
+  <!-- 能量效果 -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#FF1493" stroke-width="3" opacity="0.7" />
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#FF1493" stroke-width="2" opacity="0.5" />
+</svg>

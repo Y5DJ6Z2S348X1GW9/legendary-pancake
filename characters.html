@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>角色介绍 - 火影忍者回合制游戏</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/characters.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="main-nav">
+                <div class="logo">
+                    <h1 style="color: white; font-size: 1.5rem;">火影忍者回合制游戏</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="characters.html" class="active">角色介绍</a></li>
+                    <li><a href="about.html">关于游戏</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="characters-content">
+            <h1>角色详细介绍</h1>
+            
+            <div class="character-tabs">
+                <button class="tab-btn active" data-character="naruto">漩涡鸣人</button>
+                <button class="tab-btn" data-character="sasuke">宇智波佐助</button>
+                <button class="tab-btn" data-character="sakura">春野樱</button>
+                <button class="tab-btn" data-character="kakashi">旗木卡卡西</button>
+            </div>
+            
+            <div class="character-details">
+                <!-- 鸣人详情 -->
+                <div class="character-detail active" id="naruto-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/naruto.svg" alt="漩涡鸣人">
+                        </div>
+                        <div class="character-info">
+                            <h2>漩涡鸣人</h2>
+                            <p class="character-title">第七代火影</p>
+                            <div class="character-description">
+                                <p>漩涡鸣人是木叶隐村的第七代火影，九尾人柱力。他拥有强大的查克拉储备和坚韧不拔的意志力。</p>
+                                <p>鸣人擅长影分身之术和螺旋丸等忍术，在与九尾完全同调后，能够使用九尾模式，大幅提升战斗力。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/rasengan.svg" alt="螺旋丸">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>螺旋丸</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">由第四代火影波风水门所创，鸣人在自来也的指导下习得。凝聚查克拉形成的高速旋转球体，能够造成中等伤害。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 120</span>
+                                        <span class="stat">查克拉消耗: 50</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/shadow_clone.svg" alt="影分身之术">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>影分身之术</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">鸣人的招牌忍术，能够创造出实体分身。在战斗中可以迷惑敌人，提高下次攻击的伤害。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">效果: 增加下次攻击伤害50%</span>
+                                        <span class="stat">查克拉消耗: 40</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/rasenshuriken.svg" alt="螺旋手里剑">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>螺旋手里剑</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">鸣人将风遁性质变化加入螺旋丸创造的忍术，能够在细胞层面上造成伤害，威力巨大。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 180</span>
+                                        <span class="stat">查克拉消耗: 80</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/fireball.svg" alt="九尾模式">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>九尾模式</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">与体内的九尾完全同调，释放出九尾查克拉模式。大幅提升攻击力，同时恢复部分生命值。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 250</span>
+                                        <span class="stat">效果: 恢复200生命值</span>
+                                        <span class="stat">查克拉消耗: 150</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 佐助详情 -->
+                <div class="character-detail" id="sasuke-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/sasuke.svg" alt="宇智波佐助">
+                        </div>
+                        <div class="character-info">
+                            <h2>宇智波佐助</h2>
+                            <p class="character-title">六道·阴之力</p>
+                            <div class="character-description">
+                                <p>宇智波佐助是宇智波一族的最后幸存者之一，拥有强大的写轮眼和轮回眼。</p>
+                                <p>佐助擅长火遁和雷遁忍术，尤其是千鸟和天照等强力技能。在获得六道仙人的阴之力后，实力大幅提升。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/chidori.svg" alt="千鸟">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>千鸟</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">由卡卡西传授，佐助将雷属性查克拉凝聚于掌心，形成高速突刺攻击，能够造成高伤害。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 150</span>
+                                        <span class="stat">查克拉消耗: 60</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/amaterasu.svg" alt="天照">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>天照</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">万花筒写轮眼的能力之一，释放出无法熄灭的黑色火焰，能够造成持续伤害。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 100</span>
+                                        <span class="stat">效果: 额外造成50点持续伤害</span>
+                                        <span class="stat">查克拉消耗: 70</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/chidori.svg" alt="须佐能乎之箭">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>须佐能乎之箭</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">使用须佐能乎形成的能量箭矢，射程远，威力大，能够造成大量伤害。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 170</span>
+                                        <span class="stat">查克拉消耗: 90</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/amaterasu.svg" alt="轮回眼·天手力">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>轮回眼·天手力</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">使用轮回眼的能力，操控引力和斥力，对敌人造成极高伤害，并吸收对方查克拉。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 280</span>
+                                        <span class="stat">效果: 吸收100点查克拉</span>
+                                        <span class="stat">查克拉消耗: 160</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 小樱详情 -->
+                <div class="character-detail" id="sakura-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/sakura.svg" alt="春野樱">
+                        </div>
+                        <div class="character-info">
+                            <h2>春野樱</h2>
+                            <p class="character-title">百豪解放</p>
+                            <div class="character-description">
+                                <p>春野樱是木叶医疗忍者，在纲手的指导下成长为出色的医疗忍者和战斗忍者。</p>
+                                <p>小樱拥有精准的查克拉控制能力，擅长医疗忍术和怪力拳。通过额头的百豪之印，能够释放强大的力量。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/chakra_punch.svg" alt="怪力拳">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>怪力拳</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">将查克拉精准聚集于拳头，瞬间释放造成巨大破坏力的攻击，能够击碎岩石和大地。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 130</span>
+                                        <span class="stat">查克拉消耗: 40</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/healing.svg" alt="医疗忍术">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>医疗忍术</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">使用医疗忍术治疗伤口，恢复生命值。小樱精通医疗忍术，能够快速治愈伤势。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">效果: 恢复150生命值</span>
+                                        <span class="stat">查克拉消耗: 60</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/chakra_punch.svg" alt="樱花冲击">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>樱花冲击</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">小樱的强力攻击技能，积蓄查克拉后释放强力一击，能够造成大范围破坏。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 160</span>
+                                        <span class="stat">查克拉消耗: 70</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/strength_of_hundred.svg" alt="百豪之印·解放">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>百豪之印·解放</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">解放额头储存的查克拉，激活百豪之印，大幅提升战斗力和恢复能力。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 220</span>
+                                        <span class="stat">效果: 恢复250生命值</span>
+                                        <span class="stat">查克拉消耗: 140</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!-- 卡卡西详情 -->
+                <div class="character-detail" id="kakashi-detail">
+                    <div class="character-header">
+                        <div class="character-image">
+                            <img src="images/kakashi.svg" alt="旗木卡卡西">
+                        </div>
+                        <div class="character-info">
+                            <h2>旗木卡卡西</h2>
+                            <p class="character-title">拷贝忍者</p>
+                            <div class="character-description">
+                                <p>旗木卡卡西是木叶隐村的精英上忍，被称为"拷贝忍者卡卡西"，曾是第七班的指导老师，后成为第六代火影。</p>
+                                <p>卡卡西从朋友宇智波带土那里获得了写轮眼，能够复制各种忍术。他天赋异禀，掌握了上千种忍术，创造了雷切等强力技能。</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>技能介绍</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/raikiri.svg" alt="雷切">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>雷切</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">卡卡西改良千鸟创造的S级雷遁忍术，将雷属性查克拉高度集中在手掌，可切断闪电。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 160</span>
+                                        <span class="stat">查克拉消耗: 65</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/kamui.svg" alt="神威">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>神威</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">万花筒写轮眼的瞳术，能够扭曲时空，将目标物体传送到异空间。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 140</span>
+                                        <span class="stat">查克拉消耗: 80</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <img src="images/skills/sharingan_copy.svg" alt="写轮眼复制">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>写轮眼复制</h4>
+                                    <p class="skill-type">普通技能</p>
+                                    <p class="skill-description">利用写轮眼复制对手的忍术和体术，是卡卡西"拷贝忍者"称号的由来。下次攻击伤害提升40%。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">效果: 增加下次攻击伤害40%</span>
+                                        <span class="stat">查克拉消耗: 50</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item ultimate">
+                                <div class="skill-icon">
+                                    <img src="images/skills/susanoo.svg" alt="须佐能乎">
+                                </div>
+                                <div class="skill-detail">
+                                    <h4>须佐能乎</h4>
+                                    <p class="skill-type">奥义</p>
+                                    <p class="skill-description">万花筒写轮眼的最强瞳术，召唤巨大的查克拉武士，拥有强大的攻防能力。</p>
+                                    <div class="skill-stats">
+                                        <span class="stat">伤害: 240</span>
+                                        <span class="stat">效果: 额外造成80点伤害</span>
+                                        <span class="stat">查克拉消耗: 170</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 火影忍者回合制游戏 | 联系邮箱: wqfg8878@163.com</p>
+        </footer>
+    </div>
+
+    <script src="js/common.js"></script>
+    <script src="js/characters-detail.js"></script>
+</body>
+</html>

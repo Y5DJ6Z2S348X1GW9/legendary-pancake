@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 写轮眼复制主体 -->
+  <circle cx="50" cy="50" r="40" fill="#2F4F4F" />
+  
+  <!-- 写轮眼图案 -->
+  <circle cx="50" cy="50" r="25" fill="#FF0000" />
+  <circle cx="50" cy="50" r="10" fill="#000000" />
+  <path d="M40,50 Q50,40 60,50 Q50,60 40,50" fill="#000000" />
+  
+  <!-- 复制效果 -->
+  <circle cx="70" cy="30" r="15" fill="#FF0000" opacity="0.5" />
+  <circle cx="70" cy="30" r="7" fill="#000000" opacity="0.5" />
+  <circle cx="30" cy="70" r="15" fill="#FF0000" opacity="0.5" />
+  <circle cx="30" cy="70" r="7" fill="#000000" opacity="0.5" />
+</svg>

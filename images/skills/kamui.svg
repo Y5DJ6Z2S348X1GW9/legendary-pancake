@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- 神威主体 -->
+  <circle cx="50" cy="50" r="40" fill="#800000" />
+  
+  <!-- 时空漩涡效果 -->
+  <path d="M50,50 m-30,0 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" fill="none" stroke="black" stroke-width="2" />
+  <path d="M50,50 m-25,0 a25,25 0 1,0 50,0 a25,25 0 1,0 -50,0" fill="none" stroke="black" stroke-width="2" />
+  <path d="M50,50 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" fill="none" stroke="black" stroke-width="2" />
+  <path d="M50,50 m-15,0 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" fill="none" stroke="black" stroke-width="2" />
+  
+  <!-- 写轮眼图案 -->
+  <circle cx="50" cy="50" r="10" fill="#FF0000" />
+  <circle cx="50" cy="50" r="5" fill="#000000" />
+  <path d="M45,50 Q50,45 55,50 Q50,55 45,50" fill="#000000" />
+</svg>
