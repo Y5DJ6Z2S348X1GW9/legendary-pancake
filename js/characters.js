@@ -230,7 +230,7 @@ const characters = {
                 effect: "额外造成60点持续伤害",
                 manaCost: 145,
                 isUltimate: true,
-                image: "images/skills/red_hawk.svg"
+                image: "images/skills/fireball.svg"
             }
         ]
     },
@@ -250,7 +250,7 @@ const characters = {
                 description: "三刀流基础奥义，从三个方向同时斩击敌人",
                 damage: 155,
                 manaCost: 60,
-                image: "images/skills/onigiri.svg"
+                image: "images/skills/oni_giri.svg"
             },
             {
                 id: "enma_release",
@@ -259,7 +259,7 @@ const characters = {
                 damage: 0,
                 effect: "增加下次攻击伤害60%",
                 manaCost: 55,
-                image: "images/skills/enma_haki.svg"
+                image: "images/skills/asura.svg"
             },
             {
                 id: "santoryu_kokujou_o_tatsu_maki",
@@ -267,7 +267,7 @@ const characters = {
                 description: "旋转身体产生龙卷风般的斩击，造成范围伤害",
                 damage: 175,
                 manaCost: 85,
-                image: "images/skills/tatsu_maki.svg"
+                image: "images/skills/santoryu.svg"
             },
             {
                 id: "santoryu_ichidai_sanzen_daisen_sekai",
@@ -277,7 +277,7 @@ const characters = {
                 effect: "吸收80点查克拉",
                 manaCost: 165,
                 isUltimate: true,
-                image: "images/skills/sanzen_sekai.svg"
+                image: "images/skills/shishi_sonson.svg"
             }
         ]
     },
@@ -324,7 +324,7 @@ const characters = {
                 effect: "恢复180生命值",
                 manaCost: 155,
                 isUltimate: true,
-                image: "images/skills/king_cobra.svg"
+                image: "images/skills/snake_man.svg"
             }
         ]
     }
